@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-bsvo
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0004-tenant/tkrw-pr712-0075-0004-app/devfile-sample-bsvo@sha256:647013dd4d650e792bcb01837eeb6448187f12c06e53cdb65cbb176511bf661f
         name: my-nodejs
         ports:
         - containerPort: 3001
